@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="35"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-02 11:22:32 &#214;&#214;"/>
+        <attribute name="created" value="MzU7REVTS1RPUC0wRkgxQ1RFOzIwMTktMTAtMDI7MTE6MDc6NDYgw5bDljsyNjk1"/>
+        <attribute name="edited" value="MzU7REVTS1RPUC0wRkgxQ1RFOzIwMTktMTAtMDI7MTE6MjI6MzIgw5bDljsxOzI3OTU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Real" array="False" size=""/>
+            <assign variable="a" expression="0"/>
+            <output expression="&quot;ekrana 1.say&#305;y&#305; yaz&#305;n&#305;z&quot;" newline="True"/>
+            <input variable="a"/>
+            <declare name="b" type="Real" array="False" size=""/>
+            <assign variable="b" expression="0"/>
+            <output expression="&quot;ekrana 2.say&#305;y&#305; yaz&#305;n&#305;z&quot;" newline="True"/>
+            <input variable="b"/>
+            <if expression="a&gt;b">
+                <then>
+                    <output expression="&quot;1.say&#305; 2.say&#305;dan b&#252;y&#252;kt&#252;r&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="a&lt;b">
+                        <then>
+                            <output expression="&quot;1.say&#305; 2.say&#305;dan k&#252;&#231;&#252;kt&#252;r&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;iki say&#305; birbirine e&#351;ittir&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
